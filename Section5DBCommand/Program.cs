@@ -12,7 +12,7 @@ namespace Section5DBCommand
     {
         static void Main(string[] args)
         {
-
+            //Polymorphism Example
             var dbConn = new SQLConnection("abcdefgh");
 
             var dbCmd = new DBCommand(dbConn,"select * from tbl;");
